@@ -1,0 +1,9 @@
+<h1>Edit product</h1>
+<form (ngSubmit)="editProduct()">
+    Product's name: <input type="text" [(ngModel)]="product.name" name="name">
+    <br>
+    Product's description: <input type="text" [(ngModel)]="product.description" name="description">
+    <br>
+    <input type="submit" value="Edit">
+ 
+</form>
